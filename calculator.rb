@@ -10,3 +10,5 @@ puts "Second Number:"
 y=gets.chomp
 
 puts add(x.to_i,y.to_i) #input needs to be changed to integer for numeric function
+
+#v1
