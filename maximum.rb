@@ -2,7 +2,7 @@ require "test/unit/assertions"
 include Test::Unit::Assertions
 
 def maximum(arr)
-  arr.max
+  arr.max  #changed from arr.sort.last to arr.max
 end
 
 assert_equal maximum([2, 42, 22, 02]), 42
